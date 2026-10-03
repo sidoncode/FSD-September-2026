@@ -7,7 +7,7 @@ This repository holds the class notes, code, and whiteboard snapshots for every 
 
 | Class Date | Topic | Content | Whiteboard |
 |---|---|---|---|
-| 2026-10-03 | HTML with Emmet in VS Code | [Emmet tutorial](./emmet-tutorial.md), [Einstein page](./einstein.html), [Scientist task](./scientist.html) | [Whiteboard](./whiteboard/2026-10-03.png) |
+| 03-oct-2026 | HTML with Emmet in VS Code | [Emmet tutorial](./emmet-tutorial.md), [Einstein page](./einstein.html), [Scientist task](./scientist.html) | [Whiteboard](./whiteboard/2026-10-03.png) |
 | 2026-10-04 | _Topic to be added_ | [Content](./) | [Whiteboard](./whiteboard/2026-10-04.png) |
 | 2026-10-05 | _Topic to be added_ | [Content](./) | [Whiteboard](./whiteboard/2026-10-05.png) |
 

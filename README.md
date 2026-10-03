@@ -7,7 +7,7 @@ This repository holds the class notes, code, and whiteboard snapshots for every 
 
 | Class Date | Topic | Content | Whiteboard |
 |---|---|---|---|
-| 2026-10-03 | HTML with Emmet in VS Code | 3rd-october |[Whiteboard](./3rd-october/3rd-oct-FSD.pdf) |
+| 2026-10-03 | HTML with Emmet in VS Code | [Content](./3rd-october/) |[Whiteboard](./3rd-october/3rd-oct-FSD.pdf) |
 | 2026-10-04 | _Topic to be added_ | [Content](./) | [Whiteboard](./04oct/04oct.pdf) |
 | 2026-10-05 | _Topic to be added_ | [Content](./) | [Whiteboard](./05oct/05oct.pdf) |
 

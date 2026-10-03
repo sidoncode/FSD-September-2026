@@ -7,9 +7,11 @@ This repository holds the class notes, code, and whiteboard snapshots for every 
 
 | Class Date | Topic | Content | Whiteboard |
 |---|---|---|---|
-| 03-oct-2026 | HTML with Emmet in VS Code | [Emmet tutorial](./emmet-tutorial.md), [Einstein page](./einstein.html), [Scientist task](./scientist.html) | [Whiteboard](./whiteboard/2026-10-03.png) |
-| 2026-10-04 | _Topic to be added_ | [Content](./) | [Whiteboard](./whiteboard/2026-10-04.png) |
-| 2026-10-05 | _Topic to be added_ | [Content](./) | [Whiteboard](./whiteboard/2026-10-05.png) |
+| 2026-10-03 | HTML with Emmet in VS Code | [Whiteboard](./3rd-october/3rd-oct-FSD.pdf) |
+| 2026-10-04 | _Topic to be added_ | [Content](./) | [Whiteboard](./04oct/04oct.pdf) |
+| 2026-10-05 | _Topic to be added_ | [Content](./) | [Whiteboard](./05oct/05oct.pdf) |
+
+> Add a new row at the bottom of the table after every class. Whiteboards are stored in a folder named after the class date (for example `03oct/03oct.pdf`).
 
 
 ## How to Use This Repo

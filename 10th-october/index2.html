@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">    
+
+<head>
+    <title>5th Oct</title>
+</head>
+
+<!-- 
+userName : text : min 4 : max 12
+phoneNumber: text :only numbers from 0 to 9
+Age: number min 18 : max 60
+website: url
+dob: date   
+country: select : India, USA, UK, Canada
+checkbox: checkbox : I agree to the terms and conditions
+-->
+
+<body>
+
+    <form>
+<!-- userName : text : min 4 : max 12 -->
+
+    <label for="userName">* User Name:</label>
+        <input type="text" id="userName" name="userName" minlength="4" maxlength="12" required>
+        <br><br>
+
+
+        <!-- (IND)phoneNumber: text :only numbers from 0 to 9 -->
+
+        <label for="phoneNumber">* phoneNumber:</label>
+        <input type="number" id="phoneNumber" name="phoneNumber" pattern="[0-9]{10}" minlength="10" maxlength="10" required>
+        <br><br>
+
+        <!-- Age: number min 18 : max 60 -->
+
+        <label for="age">* Age:</label>
+        <input type="number" id="age" name="age" min="18" max="60" required>
+        <br><br>    
+
+        <!-- URL:  -->
+        <label for="website">* Website:</label>
+        <input type="url" id="website" name="website" required>
+        <br><br>
+
+        <!-- type=date with min / max -->
+        <label for="dob">Date of birth:</label>
+        <input type="date" id="dob" name="dob" min="1966-01-01" max="2008-12-31" required>
+        <!-- 
+        max age = 60 
+        min age = 18
+         -->
+        <br><br>   
+
+        <!-- note:
+         1. input -> field
+         2. select -> dropdown 
+        -->
+
+        <!-- required select Country-->
+        <label for="country">* Country:</label>
+        <select id="country" name="country" required>
+            <option value="">Select a country</option>
+            <option value="India">India</option>
+            <option value="USA">USA</option>
+            <option value="UK">UK</option>
+            <option value="Canada">Canada</option>
+        </select>
+        <br><br>
+
+         <!-- required checkbox -->
+    <input type="checkbox" id="terms" name="terms" required>
+    <label for="terms">I agree to the terms</label>
+    <br><br>
+        <button type="submit">Submit</button>
+
+        </form>
+
+        <hr>
+
+        <h2>Inline SVG</h2>
+        
+    <svg width="200" height="120" viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Sample shapes">
+        <rect x="10" y="10" width="80" height="60" fill="steelblue" stroke="black" stroke-width="2" />
+        <circle cx="140" cy="40" r="30" fill="tomato" stroke="black" stroke-width="2" />
+        <line x1="10" y1="100" x2="190" y2="100" stroke="green" stroke-width="4" />
+    </svg>
+
+
+</body>
+
+
+</html>

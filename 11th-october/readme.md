@@ -28,3 +28,10 @@ Make a one-page web page about yourself using HTML and CSS in VS Code.
 ## Marks
 
 - Total: 50 marks
+
+</br>
+
+## preview
+
+<img width="1054" height="1250" alt="image" src="https://github.com/user-attachments/assets/2da7782a-435a-499d-8f69-498385256120" />
+

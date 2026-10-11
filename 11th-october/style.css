@@ -1,0 +1,156 @@
+/* ---------- COLOR VARIABLES (hex, rgb, hsl) ---------- */
+:root {
+    --main: #4f46e5;                  /* hex */
+    --dark: rgb(55, 48, 163);         /* rgb */
+    --accent: hsl(340, 82%, 52%);     /* hsl */
+    --bg: #f4f5fb;
+}
+
+/* ---------- PAGE ---------- */
+/* Tag selector */
+body {
+    margin: 0;
+    background-color: var(--bg);
+    color: #1f2937;
+    font-family: "Merriweather", Georgia, serif;   /* font with fallback */
+}
+
+/* ---------- HEADER ---------- */
+header {
+    background: linear-gradient(135deg, var(--main), var(--accent));   /* gradient */
+    color: white;
+    padding: 3rem 1.25rem;            /* rem units */
+    text-align: center;               /* centered text */
+}
+
+/* Descendant selector */
+header h1 {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: clamp(1.8rem, 5vw, 3rem);   /* clamp() for a fluid title */
+}
+
+header p {
+    margin: 0.6rem 0 0;
+    opacity: 0.9;                     /* opacity */
+}
+
+/* ---------- NAVIGATION ---------- */
+nav {
+    background-color: var(--dark);
+    padding: 0.75rem;
+    text-align: center;               /* centers the links */
+}
+
+/* Descendant selector: links inside nav */
+nav a {
+    display: inline-block;
+    color: white;
+    padding: 0.6rem 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 0.85rem;
+}
+
+/* Hover (pseudo-class) */
+nav a:hover {
+    text-decoration: underline;
+    color: #fde047;
+}
+
+/* ---------- MAIN AREA ---------- */
+main {
+    max-width: 900px;                 /* keeps the page from getting too wide */
+    margin: 2rem auto;
+    padding: 0 1.25rem;
+}
+
+/* Tag selector: all sections are cards */
+section {
+    background-color: white;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);   /* shadow with rgba */
+}
+
+/* Child selector: h2 directly inside section */
+section > h2 {
+    margin-top: 0;
+    color: var(--main);
+    font-family: "Poppins", sans-serif;
+}
+
+p {
+    line-height: 1.7;
+}
+
+/* Image */
+img {
+    width: 100%;                      /* percent unit */
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* ---------- LIST ---------- */
+/* Pseudo-class: odd list items */
+li:nth-child(odd) {
+    color: var(--accent);
+    font-weight: 700;
+}
+
+ul {
+    line-height: 1.9;
+    padding-left: 1.25rem;
+}
+
+/* ---------- CONTACT (background picture) ---------- */
+/* ID selector */
+#contact {
+    background-image:
+        linear-gradient(rgba(17, 24, 39, 0.65), rgba(17, 24, 39, 0.65)),   /* dark see-through layer */
+        url("https://picsum.photos/id/1018/900/400");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+#contact > h2 {
+    color: white;
+}
+
+/* ---------- BUTTON ---------- */
+/* Class selector */
+.button {
+    display: inline-block;
+    background-color: var(--accent);
+    color: white;
+    padding: 0.75rem 1.75rem;
+    border-radius: 999px;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+
+.button:hover {
+    background-color: #be123c;
+}
+
+/* ---------- FOOTER ---------- */
+footer {
+    background-color: #1f2937;
+    color: #d1d5db;
+    text-align: center;
+    padding: 1.25rem;
+    font-size: 0.85rem;
+}
+
+footer p {
+    margin: 0;
+}

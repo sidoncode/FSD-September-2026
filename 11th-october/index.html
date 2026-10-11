@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aarav's Profile Page</title>
+
+    <!-- Two Google Fonts: Poppins (headings) and Merriweather (text) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Merriweather:wght@400&display=swap" rel="stylesheet">
+
+    <!-- Method 1: EXTERNAL CSS file -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Method 2: INTERNAL CSS (one small rule) -->
+    <style>
+        footer {
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Aarav Sharma</h1>
+        <!-- Method 3: INLINE CSS (on one word) -->
+        <p>Student, coder and <span style="color: #fde047; font-weight: 700;">cricket fan</span></p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <main>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I am a student learning web development. I enjoy building small websites and learning something new every day.</p>
+            <img src="https://picsum.photos/id/1015/700/250" alt="A calm river between green hills">
+        </section>
+
+        <section id="hobbies">
+            <h2>My Hobbies</h2>
+            <ul>
+                <li>Coding</li>
+                <li>Photography</li>
+                <li>Cricket</li>
+                <li>Reading</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email: aarav@example.com</p>
+            <a href="mailto:aarav@example.com" class="button">Contact Me</a>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Aarav Sharma</p>
+    </footer>
+
+</body>
+</html>

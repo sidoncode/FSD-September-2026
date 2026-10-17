@@ -73,6 +73,86 @@ Show the four course cards side by side instead of one below the other. Give eac
 </body>
 </html>
 
+```
 
+# Solution code
+
+```
+/* ---------- Basic reset ---------- */
+* {
+  box-sizing: border-box;   /* width includes padding + border */
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* ---------- Task 1: Navbar ---------- */
+.navbar {
+  display: flex;                    /* logo and menu side by side */
+  justify-content: space-between;   /* logo left, menu right */
+  align-items: center;              /* vertically centered */
+  padding: 15px 30px;               /* space inside the navbar */
+  background: navy;
+  color: white;
+}
+
+.menu {
+  display: flex;                    /* links in a row */
+  list-style: none;                 /* remove bullet points */
+}
+
+.menu a {
+  display: block;                   /* so padding works fully */
+  padding: 8px 15px;                /* space around each link */
+  color: white;
+  text-decoration: none;
+}
+
+/* ---------- Task 2: Hero Section ---------- */
+.hero {
+  padding: 80px 20px;               /* large space inside */
+  text-align: center;               /* center the text */
+  background: lightblue;
+}
+
+.hero p {
+  margin: 10px 0;
+}
+
+.btn {
+  display: inline-block;            /* lets width/padding/margin work */
+  width: 160px;                     /* its own width */
+  padding: 12px 0;                  /* space inside the button */
+  margin-top: 20px;                 /* gap above the button */
+  background: navy;
+  color: white;
+  text-decoration: none;
+}
+
+/* ---------- Task 3: Course Cards ---------- */
+.courses {
+  display: flex;                    /* cards side by side */
+  padding: 30px;
+}
+
+.card {
+  flex: 1;                          /* equal width cards */
+  padding: 20px;                    /* space inside each card */
+  margin: 10px;                     /* space between cards */
+  border: 2px solid navy;           /* border */
+  text-align: center;
+}
+
+/* ---------- Task 3: Footer ---------- */
+.footer {
+  margin-top: 40px;                 /* gap above the footer */
+  padding: 20px;
+  background: #222;                 /* dark background */
+  color: white;
+  text-align: center;
+}
 ```
 

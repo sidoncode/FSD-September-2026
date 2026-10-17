@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  div, span, p { margin: 5px; padding: 8px; }
+
+  .block {
+    display: block;          /* takes full width, starts on a new line */
+    background: lightblue;
+  }
+
+  .inline {
+    display: inline;         /* only as wide as content, width/height ignored */
+    background: lightgreen;
+  }
+
+  .inline-block {
+    display: inline-block;   /* sits in line, but width/height work */
+    width: 120px;
+    height: 50px;
+    background: lightsalmon;
+  }
+
+  .none {
+    display: none;           /* completely hidden, takes no space */
+  }
+
+  .flex {
+    display: flex;           /* children line up in a row */
+    gap: 10px;
+    background: #eee;
+  }
+  .flex div {
+    background: gold;
+  }
+
+  .grid {
+    display: grid;           /* children placed in rows and columns */
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    background: #eee;
+  }
+  .grid div {
+    background: plum;
+  }
+</style>
+</head>
+<body>
+
+  <h3>block</h3>
+  <div class="block">Block 1</div>
+  <div class="block">Block 2</div>
+
+  <h3>inline</h3>
+  <span class="inline">Inline 1</span>
+  <span class="inline">Inline 2</span>
+
+  <h3>inline-block</h3>
+  <span class="inline-block">Box 1</span>
+  <span class="inline-block">Box 2</span>
+
+  <h3>none</h3>
+  <div class="none">You can't see me</div>
+  <p>The hidden div above takes no space.</p>
+
+  <h3>flex</h3>
+  <div class="flex">
+    <div>Item 1</div>
+    <div>Item 2</div>
+    <div>Item 3</div>
+  </div>
+
+  <h3>grid</h3>
+  <div class="grid">
+    <div>1</div><div>2</div><div>3</div>
+    <div>4</div><div>5</div><div>6</div>
+  </div>
+
+</body>
+</html>

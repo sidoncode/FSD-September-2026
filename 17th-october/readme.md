@@ -19,3 +19,59 @@ Show the four course cards side by side instead of one below the other. Give eac
 ## Marks
 
 10 per task, plus 5 for clean code (35 total)
+
+
+</br>
+
+```
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sunrise College</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <h2 class="logo">Sunrise College</h2>
+    <ul class="menu">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Courses</a></li>
+      <li><a href="#">Admissions</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </header>
+
+  <section class="hero">
+    <h1>Welcome to Sunrise College</h1>
+    <p>Learn. Grow. Succeed.</p>
+    <a href="#" class="btn">Apply Now</a>
+  </section>
+
+  <section class="courses">
+    <h2>Our Courses</h2>
+    <div class="card">B.Sc Computer Science</div>
+    <div class="card">B.Com</div>
+    <div class="card">BBA</div>
+    <div class="card">B.A English</div>
+  </section>
+
+  <section class="stats">
+    <div class="stat-box"><h3>2000+</h3><p>Students</p></div>
+    <div class="stat-box"><h3>100+</h3><p>Teachers</p></div>
+    <div class="stat-box"><h3>25</h3><p>Years</p></div>
+  </section>
+
+  <p class="old-notice">Admissions closed for 2024.</p>
+
+  <footer class="footer">
+    <p>© 2026 Sunrise College | Contact: info@sunrise.edu</p>
+  </footer>
+
+</body>
+</html>
+
+
+```
+

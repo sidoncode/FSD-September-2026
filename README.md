@@ -7,8 +7,10 @@ This repository holds the class notes, code, and whiteboard snapshots for every 
 
 | Class Date | Topic | Content | Whiteboard |
 |---|---|---|---|
-| 2026-10-03 | Introduction to Web Development, Internet & Client-Server Basics, Development Environment Setup, VSCode & Browser Tools, Git & Version Control Basics, HTML5 Introduction, HTML Structure & Syntax | [Content](./3rd-october/) |[Whiteboard](./3rd-october/3rd-oct-FSD.pdf) |
+| 2026-10-03 | Introduction to Web Development | [Content](./3rd-october/) |[Whiteboard](./3rd-october/3rd-oct-FSD.pdf) |
 | 2026-10-04 | Core HTML Essentials | [Content](./4th-oct/) | [Whiteboard](./4th-oct/4th-October.pdf) |
+| 2026-16-04 | Core HTML Essentials | [Content](./4th-oct/) | [Whiteboard](./4th-oct/4th-October.pdf) |
+| 2026-17-04 | Core HTML Essentials | [Content](./4th-oct/) | [Whiteboard](./4th-oct/4th-October.pdf) |
 
 > Add a new row at the bottom of the table after every class. Whiteboards are stored in a folder named after the class date (for example `03oct/03oct.pdf`).
 

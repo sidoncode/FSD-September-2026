@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  .box {
+    width: 150px;
+    height: 150px;
+    position: absolute; /* z-index only works on positioned elements */
+    color: white;
+    font-weight: bold;
+  }
+
+  .red {
+    background: red;
+    top: 50px;
+    left: 50px;
+    z-index: 1;
+  }
+
+  .blue {
+    background: blue;
+    top: 100px;
+    left: 100px;
+    z-index: 2; /* higher number = on top */
+  }
+</style>
+</head>
+<body>
+  <div class="box red">Red (z-index: 1)</div>
+  <div class="box blue">Blue (z-index: 2)</div>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <style>
+            .stack {
+                position: relative;
+                width: 300px;
+                height: 220px;
+                margin: 40px;
+            }
+            .card {
+                position: absolute;
+                width: 160px;
+                height: 120px;
+                border-radius: 10px;
+                color: white;
+                font-family: sans-serif;
+                transition: z-index 0s, transform 0.2s;
+            }
+
+            .a { background: #f44336; top:0; left:0 ; z-index: 1; }
+            .b { background: #2196F3; top:10px; left:10px; z-index: 2; }
+            .c { background: #4CAF50; top:20px; left:20px; z-index: 3; }
+   
+            .card:hover {
+                z-index: 10;
+                transform: scale(1.05);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="stack">
+            <div class="card a">Card A (z : 1)</div>
+            <div class="card b">Card B (z : 2)</div>
+            <div class="card c">Card C (z : 3)</div>
+        </div>
+    </body>
+</html>

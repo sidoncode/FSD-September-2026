@@ -7,10 +7,14 @@ This repository holds the class notes, code, and whiteboard snapshots for every 
 
 | Class Date | Topic | Content | Whiteboard |
 |---|---|---|---|
-| 2026-10-03 | Introduction to Web Development | [Content](./3rd-october/) |[Whiteboard](./3rd-october/3rd-oct-FSD.pdf) |
-| 2026-11-04 | Core HTML Essentials | [Content](./4th-oct/) | [Whiteboard](./4th-oct/4th-October.pdf) |
-| 2026-17-04 | Introduction to CSS,  | [Content](./17th-october/) | [Whiteboard](./17th-october/17th-october---pwskills.pdf) |
-| 2026-18-04 | CSS Box Model, | [Content](./18th-october/) | [Whiteboard](./18th-october/4th-October.pdf) |
+| 2026-09-27 | Course Kick-off | [Content](./27th%20Sept/) | [Whiteboard](./27th%20Sept/fsd%2027th.pdf) |
+| 2026-10-03 | Introduction to Web Development | [Content](./3rd-october/) | [Whiteboard](./3rd-october/3rd-oct-FSD.pdf) |
+| 2026-10-04 | Core HTML Essentials | [Content](./4th-oct/) | [Whiteboard](./4th-oct/4th-October.pdf) |
+| 2026-10-10 | HTML Forms, Validation and Inline SVG | [Content](./10th-october/) | [Whiteboard](./10th-october/fsd-10th-october.pdf) |
+| 2026-10-11 | CSS Fundamentals: Selectors, Colors, Fonts and Units | [Content](./11th-october/) | [Whiteboard](./11th-october/11th-oct-whiteboard.pdf) |
+| 2026-10-17 | Introduction to CSS: Margin, Padding and Display | [Content](./17th-october/) | [Whiteboard](./17th-october/17th-october---pwskills.pdf) |
+| 2026-10-18 | CSS Box Model, Flexbox and z-index | [Content](./18th-october/) | - |
+| 2026-10-24 | Flexbox Practice and CSS Grid | [Content](./24-oct/) | [Whiteboard](./24-oct/24th-oct-pwskills.pdf) |
 
 > Add a new row at the bottom of the table after every class. Whiteboards are stored in a folder named after the class date (for example `03oct/03oct.pdf`).
 

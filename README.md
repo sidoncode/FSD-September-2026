@@ -14,7 +14,8 @@ This repository holds the class notes, code, and whiteboard snapshots for every 
 | 2026-10-11 | CSS Fundamentals: Selectors, Colors, Fonts and Units | [Content](./11th-october/) | [Whiteboard](./11th-october/11th-oct-whiteboard.pdf) |
 | 2026-10-17 | Introduction to CSS: Margin, Padding and Display | [Content](./17th-october/) | [Whiteboard](./17th-october/17th-october---pwskills.pdf) |
 | 2026-10-18 | CSS Box Model, Flexbox and z-index | [Content](./18th-october/) | [Whiteboard](./18th-october/18th-oct---pwskills.pdf) |
-| 2026-10-24 | Responsive Web Design | [Content](./24-oct/) | [Whiteboard](./24-oct/24th-oct-pwskills.pdf) |
+| 2026-10-24 | Responsive Design with Flexbox | [Content](./24-oct/) | [Whiteboard](./24-oct/24th-oct-pwskills.pdf) |
+| 2026-10-25 | CSS Grid and Interactive UI | [Content](./25-oct/) | [Whiteboard](./25-oct/25th-oct-pwskills.pdf) |
 
 > Add a new row at the bottom of the table after every class. Whiteboards are stored in a folder named after the class date (for example `03oct/03oct.pdf`).
 

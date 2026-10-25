@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            /* body tag -> css desinging */
+
+            .box{
+                width: 80px;
+                height: 80px;
+                background: #4f46e5;
+                margin: 50px;
+                border-radius: 10px;
+                animation: move 2s infinite alternate;
+            }
+            @keyframes move{
+                from{
+                    transform: translateX(0);
+                    background: #4f46e5;
+                }
+                to{
+                    transform: translateX(200px);
+                    background: #ec4899;
+                }
+            }
+
+            /* body tag -> css animation */
+        </style>
+    </head>
+
+    <body>
+        <div class="box"></div>
+    </body>
+
+</html>

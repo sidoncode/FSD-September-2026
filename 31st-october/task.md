@@ -24,12 +24,12 @@ Your webpage must contain:
 
 | Activity | Time |
 |---|---:|
-| Create the HTML structure | 10 minutes |
+| Create the HTML structure | 20 minutes |
 | Apply CSS Box Model | 10 minutes |
 | Create the CSS Grid layout | 10 minutes |
-| Apply CSS Transform effects | 5 minutes |
-| Test and improve the page | 5 minutes |
-| **Total** | **40 minutes** |
+| Apply CSS Transform effects | 10 minutes |
+| Test and improve the page | 10 minutes |
+| **Total** | **60 minutes** |
 
 ## 3. Requirements
 

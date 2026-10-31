@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <style>
+
+            .box{
+                width: 120px;
+                height: 120px;
+                background: steelblue;
+                color: white;
+                text-align: center;
+                line-height: 120px;
+                margin: 40px;
+            }
+
+            .rotateX {
+                transform: perspective(400px) rotateX(45deg);
+            }
+
+            .rotateY {
+                transform: perspective(400px) rotateY(45deg);
+            }
+
+            .rotateZ {
+                transform: perspective(400px) rotateZ(45deg);
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <h2>CSS 2D Transforms</h2>
+        <div class = "box rotateX">Rotate X</div>
+        <div class = "box rotateY">Rotate Y</div>
+        <div class = "box rotateZ">Rotate Z</div>
+        
+        
+    </body>
+</html>

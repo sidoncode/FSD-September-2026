@@ -17,6 +17,8 @@ This repository holds the class notes, code, and whiteboard snapshots for every 
 | 2026-10-24 | Responsive Design with Flexbox | [Content](./24-oct/) | [Whiteboard](./24-oct/24th-oct-pwskills.pdf) |
 | 2026-10-25 | CSS Grid and Interactive UI | [Content](./25-oct/) | [Whiteboard](./25th-october/25th-oct-pwskills.pdf) |
 | 2026-10-31 | Animations and Modern CSS | [Content](./31st-october/) | [Whiteboard](./31st-october/31stoct---pwskills.pdf) |
+| 2026-11-01 | Git | [Content](./1st-novem/) | [Whiteboard](./1st-novem/) |
+
 
 
 

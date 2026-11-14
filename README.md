@@ -18,6 +18,7 @@ This repository holds the class notes, code, and whiteboard snapshots for every 
 | 2026-10-25 | CSS Grid and Interactive UI | [Content](./25-oct/) | [Whiteboard](./25th-october/25th-oct-pwskills.pdf) |
 | 2026-10-31 | Animations and Modern CSS | [Content](./31st-october/) | [Whiteboard](./31st-october/31stoct---pwskills.pdf) |
 | 2026-11-01 | Git | [Content](./1st-novem/) | [Whiteboard](./1st-novem/) |
+ 2026-11-14 | GitHub and Collaboration Workflows | [Content](./1st-novem/) | [Whiteboard](https://miro.com/app/board/uXjVEOZuEUA=/?share_link_id=296630514552) |
 
 
 

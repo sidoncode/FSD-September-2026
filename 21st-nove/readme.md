@@ -53,12 +53,8 @@ Bonus Eligible: true
    ```bash
    tsc employee.ts
 
-<br>
-
    ```bash
    node employee.js
-
-<br>
 
 
 5. Check that your output matches the expected output.

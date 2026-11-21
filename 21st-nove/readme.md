@@ -53,6 +53,11 @@ Bonus Eligible: true
    ```bash
    tsc employee.ts
 
+<br>
+
+   ```bash
+   node employee.js
+
 5. Check that your output matches the expected output.
 
 ## Optional Challenge

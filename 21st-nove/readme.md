@@ -48,17 +48,10 @@ Bonus Eligible: true
 
 1. Create a file named `employee.ts`.
 2. Write your solution in TypeScript.
-3. Compile the file:
+3. Compile the TypeScript file:
 
-   \```bash
+   ```bash
    tsc employee.ts
-   \```
-
-4. Run the generated JavaScript file:
-
-   \```bash
-   node employee.js
-   \```
 
 5. Check that your output matches the expected output.
 

@@ -58,6 +58,9 @@ Bonus Eligible: true
    ```bash
    node employee.js
 
+<br>
+
+
 5. Check that your output matches the expected output.
 
 ## Optional Challenge

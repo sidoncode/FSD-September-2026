@@ -27,11 +27,9 @@
 |---|---|---|
 | 1 | Create a function to add two numbers. | Function declaration |
 | 2 | Create a function to check whether a number is even or odd. | Parameters and return |
-| 3 | Create a function to calculate the area of a rectangle. | Return type |
-| 4 | Create a function to calculate simple interest. | Multiple parameters |
-| 5 | Create a function to greet a user. Use `Student` as the default name. | Default parameters |
-| 6 | Create a function to calculate employee salary with an optional bonus. | Optional parameters |
-| 7 | Create a function to find the largest of two numbers using an arrow function. | Arrow functions |
+| 3 | Create a function to calculate simple interest. | Multiple parameters |
+| 4 | Create a function to greet a user. Use `Student` as the default name. | Default parameters |
+| 5 | Create a function to find the largest of two numbers using an arrow function. | Arrow functions |
 
 ---
 

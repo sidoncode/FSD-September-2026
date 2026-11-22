@@ -19,6 +19,8 @@ This repository holds the class notes, code, and whiteboard snapshots for every 
 | 2026-10-31 | Animations and Modern CSS | [Content](./31st-october/) | [Whiteboard](./31st-october/31stoct---pwskills.pdf) |
 | 2026-11-01 | Git | [Content](./1st-novem/) | [Whiteboard](./1st-novem/) |
  2026-11-14 | GitHub and Collaboration Workflows | [Content](./1st-novem/) | [Whiteboard](https://miro.com/app/board/uXjVEOZuEUA=/?share_link_id=296630514552) |
+| 2026-11-21 | TS - Variables, Basic Types & Operators | [Whiteboard](https://miro.com/app/board/uXjVELF0v6E=/?share_link_id=215761014436)  |
+ 2026-11-22 | Control Flow | [Content](./1st-novem/) | [Whiteboard](https://miro.com/app/board/uXjVELQzWzY=/?share_link_id=741915321788) |
 
 
 

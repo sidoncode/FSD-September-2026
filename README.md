@@ -21,6 +21,7 @@ This repository holds the class notes, code, and whiteboard snapshots for every 
  2026-11-14 | GitHub and Collaboration Workflows | [Content](./1st-novem/) | [Whiteboard](https://miro.com/app/board/uXjVEOZuEUA=/?share_link_id=296630514552) |
 | 2026-11-21 | TS - Variables, Basic Types & Operators | [Whiteboard](https://miro.com/app/board/uXjVELF0v6E=/?share_link_id=215761014436)  |
  2026-11-22 | Control Flow | [Content](./1st-novem/) | [Whiteboard](https://miro.com/app/board/uXjVELQzWzY=/?share_link_id=741915321788) |
+ 2026-11-28 | Scope & Closure | [Content](./1st-novem/) | [Whiteboard](https://miro.com/app/board/uXjVEIkzvss=/?share_link_id=313453237903) |
 
 
 
